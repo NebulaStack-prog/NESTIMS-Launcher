@@ -23,17 +23,29 @@ Inspired by classic DOS terminals and retro computer systems, NESTIMS Launcher c
 ## Key Features
 
 - Centralized online product catalog
+  
 - Integrated library of installed applications
+  
 - Direct downloads from GitHub Releases
+  
 - Automatic detection of available updates
+  
 - Application installation and removal
+  
 - EXE and JAR package support
+  
 - SHA-256 file integrity verification
+  
 - Offline access to the cached catalog
+  
 - Search and category filtering
+  
 - Persistent local settings
+  
 - Fullscreen retro terminal interface
+  
 - Animated CRT-inspired startup sequence
+  
 - Optional fullscreen background during gameplay
 
 ## Interface
@@ -53,9 +65,13 @@ NESTIMS Launcher uses a centralized JSON catalog to retrieve product information
 The distribution process consists of five stages:
 
 1. Synchronize the central catalog.
+   
 2. Retrieve available product versions.
+   
 3. Compare remote and installed versions.
+   
 4. Download the selected release.
+   
 5. Verify file integrity and install the application.
 
 The catalog can be updated independently of the launcher itself, allowing new products and releases to become available without requiring a new launcher build.
@@ -74,20 +90,16 @@ The catalog can be updated independently of the launcher itself, allowing new pr
 ## Installation
 
 1. Open the Releases section of this repository.
+
 2. Download the latest Windows executable.
+
 3. Run NESTIMS Launcher.
+
 4. Synchronize the product catalog.
+
 5. Discover and install your preferred applications.
 
 **Note:** A compatible Java runtime is required to launch JAR applications.
-
-## Local Storage
-
-The launcher stores installed applications, configuration files, library information, and cached catalog data locally.
-
-Default storage directory:
-
-`%LOCALAPPDATA%\NESTIMS\LauncherAlpha`
 
 ## Security and Reliability
 
@@ -103,6 +115,14 @@ Its predecessor, [NebulaStack Launcher](https://github.com/NebulaStack-prog/Nebu
 
 NS-023 introduces centralized distribution, product synchronization, and integrated update management.
 
-*Built through curiosity. Connected through technology.*
+![](NSL_3_0.png)
+
+![](NSL_3_1.png)
+
+![](NSL_3_2.png)
+
+![](NSL_3_3.png)
+
+![](NSL_3_5.png)
 
 © NESTIMS
