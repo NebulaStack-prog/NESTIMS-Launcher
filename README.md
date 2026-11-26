@@ -16,6 +16,8 @@
 | Language            | Python             |
 | Status              | Active Development |
 
+> [![CI](https://github.com/NebulaStack-prog/NESTIMS-Launcher/actions/workflows/ci.yml/badge.svg)](https://github.com/NebulaStack-prog/NESTIMS-Launcher/actions/workflows/ci.yml)
+
 ## Overview
 
 **NESTIMS Launcher** is a centralized desktop application designed to discover, install, launch, and update products within the NESTIMS ecosystem.
