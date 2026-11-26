@@ -1,5 +1,9 @@
 # NESTIMS Launcher
 
+<p align="center">
+  <img src="NSL_3_4.png" alt="NESTIMS Launcher Logo" width="450">
+</p>
+
 > One ecosystem. One launcher. Endless possibilities.
 
 | Project Information | Details            |
