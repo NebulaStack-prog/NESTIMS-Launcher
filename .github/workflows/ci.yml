@@ -1,0 +1,39 @@
+name: CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Check syntax
+        run: python -m compileall -q .
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+  build:
+    needs: test
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install build tools
+        run: python -m pip install pyinstaller
+      - name: Build Windows executable
+        run: python -m PyInstaller --clean --noconfirm --onefile --windowed --name NESTIMS-Launcher NESTIMS_Launcher.py
+      - name: Upload executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: NESTIMS-Launcher-Windows
+          path: dist/NESTIMS-Launcher.exe
+          if-no-files-found: error
