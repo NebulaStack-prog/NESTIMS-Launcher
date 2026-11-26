@@ -89,7 +89,7 @@ The catalog can be updated independently of the launcher itself, allowing new pr
 
 ## Installation
 
-1. Open the Releases section of this repository.
+1. Open the [Releases](https://github.com/NebulaStack-prog/NESTIMS-Launcher/releases/tag/v3.0a3.5) section of this repository.
 
 2. Download the latest Windows executable.
 
