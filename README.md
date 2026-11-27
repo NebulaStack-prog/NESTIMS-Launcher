@@ -121,6 +121,8 @@ Its predecessor, [NebulaStack Launcher](https://github.com/NebulaStack-prog/Nebu
 
 NS-023 introduces centralized distribution, product synchronization, and integrated update management.
 
+## Screenshots
+
 ![](NSL_3_0.png)
 
 ![](NSL_3_1.png)
