@@ -18,7 +18,7 @@
 
 > [![CI](https://github.com/NebulaStack-prog/NESTIMS-Launcher/actions/workflows/ci.yml/badge.svg)](https://github.com/NebulaStack-prog/NESTIMS-Launcher/actions/workflows/ci.yml)
 
-## Overview
+## ✨️ Overview
 
 **NESTIMS Launcher** is a centralized desktop application designed to discover, install, launch, and update products within the NESTIMS ecosystem.
 
@@ -26,7 +26,7 @@ Unlike its predecessor, NebulaStack Launcher (NS-019), the new launcher introduc
 
 Inspired by classic DOS terminals and retro computer systems, NESTIMS Launcher combines a nostalgic visual experience with modern software distribution technologies.
 
-## Key Features
+## 💾 Key Features
 
 - Centralized online product catalog
   
@@ -54,7 +54,7 @@ Inspired by classic DOS terminals and retro computer systems, NESTIMS Launcher c
   
 - Optional fullscreen background during gameplay
 
-## Interface
+## 🖥 Interface
 
 | Section     | Shortcut | Description                   |
 | ----------- | -------- | ----------------------------- |
@@ -64,7 +64,7 @@ Inspired by classic DOS terminals and retro computer systems, NESTIMS Launcher c
 | Settings    | F4       | Configure the launcher        |
 | Synchronize | F5       | Refresh the central catalog   |
 
-## Architecture
+## 🗃 Architecture
 
 NESTIMS Launcher uses a centralized JSON catalog to retrieve product information and release metadata.
 
@@ -82,7 +82,7 @@ The distribution process consists of five stages:
 
 The catalog can be updated independently of the launcher itself, allowing new products and releases to become available without requiring a new launcher build.
 
-## Technology Stack
+## 🛠 Technology Stack
 
 - Python
 - Tkinter
@@ -93,7 +93,7 @@ The catalog can be updated independently of the launcher itself, allowing new pr
 - PyInstaller
 - Git and GitHub
 
-## Installation
+## 📝 Installation
 
 1. Open the [Releases](https://github.com/NebulaStack-prog/NESTIMS-Launcher/releases/tag/v3.0a3.5) section of this repository.
 
@@ -107,13 +107,13 @@ The catalog can be updated independently of the launcher itself, allowing new pr
 
 **Note:** A compatible Java runtime is required to launch JAR applications.
 
-## Security and Reliability
+## 📄 Security and Reliability
 
 NESTIMS Launcher validates release metadata and checks downloaded files using SHA-256 hashes when provided.
 
 If the remote catalog is unavailable or invalid, the launcher can continue operating using the previously cached catalog.
 
-## Development History
+## 📖 Development History
 
 NESTIMS Launcher represents the next generation of software distribution within the NESTIMS ecosystem.
 
@@ -121,7 +121,7 @@ Its predecessor, [NebulaStack Launcher](https://github.com/NebulaStack-prog/Nebu
 
 NS-023 introduces centralized distribution, product synchronization, and integrated update management.
 
-## Screenshots
+## 📸 Screenshots
 
 ![](NSL_3_0.png)
 
